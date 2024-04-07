@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Ticketing System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Zoo Ticketing System</h1>
+        <div id="ticketGenerator">
+            <h2>Generate Ticket</h2>
+            <label for="numGuests">Number of Guests:</label>
+            <input type="number" id="numGuests">
+            <div id="guestsAgeInput"></div>
+            <button id="generateBtn">Generate Ticket</button>
+            <div id="ticketResult"></div>
+        </div>
+        <div id="ticketValidator">
+            <h2>Validate Ticket</h2>
+            <label for="ticketId">Enter Ticket ID:</label>
+            <input type="text" id="ticketId">
+            <button id="validateBtn">Validate</button>
+            <div id="validationResult"></div>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
